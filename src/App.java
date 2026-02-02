@@ -1,5 +1,26 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        double num = Math.PI;
+        System.out.println("PI értéke: " + num); 
+        System.out.println(Math.abs(-25));
+        System.out.println(Math.pow(2, 4));
+        System.out.println(Math.sqrt(9));
+        double szog = 30; 
+        //radiant varnak a fuggvenyek nem szoget
+        double rad = szog * Math.PI /180;
+        System.out.println(Math.sin(rad));
+        System.out.println(Math.cos(rad));
+        System.out.println(Math.tan(rad));
+        //maguk ugyis tudnak matekul
+
+        System.out.println(Math.round(3.4));
+
+        //mindig lefele
+        System.out.println(Math.floor(3.9)); 
+
+        //mindig felfele
+        System.out.println(Math.ceil(3.1));
+        System.out.println(Math.random());
+
     }
 }
