@@ -1,12 +1,12 @@
 import java.util.Random;
 
 public class Poker {
-    public static void play() {
+    protected static void play() {
         playerThrow("Ember");
         playerThrow("Gep");
     }
     
-    public static void playerThrow(String role) {
+    private static void playerThrow(String role) {
         Random rnd = new Random();
 
         System.out.print(role +":\t");
